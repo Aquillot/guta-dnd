@@ -1,0 +1,1 @@
+Une des 3 survivants du clan, elle a disparu il y a de nombreux mois.

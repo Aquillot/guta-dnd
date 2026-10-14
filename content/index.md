@@ -1,6 +1,6 @@
 ---
-title: Welcome to Quartz
+title: La campagne de GUTA
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+Bienvenue sur le wiki de la campagne Donjons & Dragons 5.5 de GUTA.
+
