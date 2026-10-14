@@ -38,6 +38,17 @@ jobs:
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
+      - name: Diagnose Quartz executable
+        run: |
+          echo "Quartz executable:"
+          ls -la node_modules/.bin/quartz || true
+          echo "Executable target:"
+          readlink -f node_modules/.bin/quartz || true
+          echo "Quartz directory:"
+          ls -la quartz || true
+          echo "Package configuration:"
+          node -p "JSON.stringify(require('./package.json').bin, null, 2)"
+          
       - name: Build Quartz website
         run: npm exec -- quartz build
 
