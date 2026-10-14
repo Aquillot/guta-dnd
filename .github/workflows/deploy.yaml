@@ -48,9 +48,9 @@ jobs:
           ls -la quartz || true
           echo "Package configuration:"
           node -p "JSON.stringify(require('./package.json').bin, null, 2)"
-          
+
       - name: Build Quartz website
-        run: npm exec -- quartz build
+        run: node quartz/bootstrap-cli.mjs build
 
       - name: Upload website
         uses: actions/upload-pages-artifact@v4
