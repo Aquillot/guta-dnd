@@ -1,2 +1,2 @@
 # guta-dnd
-D&amp;D campaigm with GUTA as the GM and various colleagues as players.
+D&amp;D campaign with GUTA as the GM and various colleagues as players.
